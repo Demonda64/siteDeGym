@@ -450,3 +450,25 @@ h1 {
         font-size: 35px;
     }
 }
+
+/* ---------------PARALLAX------------ */
+
+.parallax {
+    background-image: url(ressources/img-paral.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax-txt {
+    font-size: 100px;
+    color: #f1f1f1;
+    text-align: center;
+    font-weight: 700;
+}
+@media screen and (max-width:550px) 
+{.parallax-txt{font-size: 50px;}
+    
+}
