@@ -432,3 +432,14 @@ h1 {
     cursor: pointer;
     border: none;
 }
+
+@media screen and (max-width:850px){
+    .titre-equipement {
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:500px){
+    .titre-equipement {
+        font-size: 35px;
+    }
+}
